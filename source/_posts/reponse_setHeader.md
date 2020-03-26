@@ -106,7 +106,7 @@ public static void main(String[] args) {
 
 ----- 输出
 setHeader -> getHeader 方式查询到: two
-setHeader -> getHeader 方式查询到: two
+setHeader -> getHeaders 方式查询到: two
 
 addHeader -> getHeader 方式查询到: a
 addHeader -> getHeaders 方式查询到: [a, b, c, d]
