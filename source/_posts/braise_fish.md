@@ -1,45 +1,39 @@
 ---
 title: 红烧鱼
-date: 2020-04-12 15:30:01
+date: 2020-04-12 15:57:01
 tags: 鱼
 categories: 吃货
 ---
-
------
-
------
-
-又是个美好的周末，照例要吃点好的。今天做了虎皮蛋和红烧鱼。老是写技术博客也没啥意思，不如放点食谱上来吧，毕竟饮食男女嘛。这里先说虎皮蛋的制法。
 
 ##### 食材准备
 
 鱼，玉米油，佐料（大葱、姜、蒜头、生抽、老抽、醋、料酒、蚝油、豉油、花椒、八角、桂树皮、黄豆酱）
 
-[![GO4pTK.jpg](https://s1.ax1x.com/2020/04/12/GO4pTK.jpg)](https://imgchr.com/i/GO4pTK)
+![GO4pTK.jpg](https://s1.ax1x.com/2020/04/12/GO4pTK.jpg)
 
 ##### 1. 煎鱼
 
-[![GO4kSH.jpg](https://s1.ax1x.com/2020/04/12/GO4kSH.jpg)](https://imgchr.com/i/GO4kSH)
+![GO4kSH.jpg](https://s1.ax1x.com/2020/04/12/GO4kSH.jpg)
 
 为了不糊锅，建议事先在鱼的身上糊上一层面粉。入锅之前，需要提起鱼来，把多余的面粉抖掉，防止热油变苦。煎鱼的目的有两个：高油温可以锁住水分，使鱼肉外焦里嫩；鱼本身的腥味主要来自于表皮和腹腔，高油温可以迅速使鱼皮和腹腔角质化，起到去腥的作用。
 
-[![GO4MtS.jpg](https://s1.ax1x.com/2020/04/12/GO4MtS.jpg)](https://imgchr.com/i/GO4MtS)
+![GO4MtS.jpg](https://s1.ax1x.com/2020/04/12/GO4MtS.jpg)
 
 待鱼炸至两面金黄后捞出，放凉备用。
 
-[![GO4t00.jpg](https://s1.ax1x.com/2020/04/12/GO4t00.jpg)](https://imgchr.com/i/GO4t00)
+![GO4t00.jpg](https://s1.ax1x.com/2020/04/12/GO4t00.jpg)
 
 ##### 2. 烧鱼
 
-[![GO4g76.jpg](https://s1.ax1x.com/2020/04/12/GO4g76.jpg)](https://imgchr.com/i/GO4g76)
+![GO4g76.jpg](https://s1.ax1x.com/2020/04/12/GO4g76.jpg)
 
 热油锅将佐料翻炒出味，兑水至 2/3 满锅。
 
-[![GO4ojA.jpg](https://s1.ax1x.com/2020/04/12/GO4ojA.jpg)](https://imgchr.com/i/GO4ojA)
+![GO4ojA.jpg](https://s1.ax1x.com/2020/04/12/GO4ojA.jpg)
 
 大火烧开，约 10 分钟后转至文火慢炖。约 1 小时后，大火收汁，出锅。
 
-[![GO5VCF.jpg](https://s1.ax1x.com/2020/04/12/GO5VCF.jpg)](https://imgchr.com/i/GO5VCF)
+![GO5VCF.jpg](https://s1.ax1x.com/2020/04/12/GO5VCF.jpg)
 
 ##### 3. 心得
 
