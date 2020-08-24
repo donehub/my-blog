@@ -1,6 +1,6 @@
 ---
 title: 用 Prometheus 监控线程池
-date: 2020-07-19 01:50:12
+date: 2020-08-17 01:45:12
 tags: Prometheus
 categories: 运维
 ---
@@ -69,7 +69,7 @@ public class ExecutorPoolConfig {
 }
 ```
 
-#### 二、监控指标
+#### 三、监控指标
 
 综合线程池的核心要素和生产业务的关键要素，提出以下几种监控指标:
 
@@ -147,7 +147,7 @@ public class ExecutorMetricsSupport implements InitializingBean {
 }
  ```
 
-### 三、指标分析
+#### 四、指标分析
 
 通过 `PSQL` 将以上各项指标展示在 `Grafana` 中。 `Prometheus` 默认 `15s` 拉取一次数据，对于线程池这种波定性较大的指标，建议将拉取时间调整至 `10s`，以便灵活且准确地反应线程池的运行情况。
 
