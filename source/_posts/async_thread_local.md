@@ -302,8 +302,8 @@ public RespDTO<String> loadFile(@Valid @RequestBody LoadFileReqDTO loadFileReqDT
 public void loadFile(LoadFileReqDTO loadFileReqDTO, AsyncLoadFile asyncLoadFile, SyUser syUser) {
     
     UserContextUtil.setSyUser(syUser);
-	log.info("异步加载文件开始; UserName: {}", UserContextUtil.getRealName());
-	UserContextUtil.remove();
+    log.info("异步加载文件开始; UserName: {}", UserContextUtil.getRealName());
+    UserContextUtil.remove();
     log.info("异步加载文件结束; UserName: {}", UserContextUtil.getRealName());
 }
 ```
@@ -346,7 +346,7 @@ public void loadFile(LoadFileReqDTO loadFileReqDTO, AsyncLoadFile asyncLoadFile,
 * @param asyncLoadFile  初始化加载文件信息
 * @param syUser         用户信息
 */
-@Async
+@Async(TASK_EXECUTOR)
 public void loadFile(LoadFileReqDTO loadFileReqDTO, AsyncLoadFile asyncLoadFile, SyUser syUser) {
     
     UserContextUtil.setSyUser(syUser);
@@ -367,4 +367,4 @@ public void loadFile(LoadFileReqDTO loadFileReqDTO, AsyncLoadFile asyncLoadFile,
 
 #### 三、总结
 
-虽然`ThreadLocal`的线程相关属性提供了很多便利性，但在高并发系统中，直接使用原生静态对象并不合适。因此，如使用 `Redis`、`MQ` 一样，深入了解常用工具的特性，是系统设计的必备。
+虽然 `ThreadLocal` 的线程相关属性提供了很多便利性，但在高并发系统中，直接使用原生静态对象并不合适。因此，如使用 `Redis`、`MQ` 一样，深入了解常用工具的特性，是系统设计的必备要素。
