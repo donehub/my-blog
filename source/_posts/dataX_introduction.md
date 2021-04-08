@@ -49,7 +49,7 @@
 
 ![](http://assets.processon.com/chart_image/606ecc93f346fb575c701e31.png?_=1617875840785)
 
-* 名词解释：
+名词解释：
 
 `Job`：`DataX` 执行数据同步任务的最小业务单元；
 
@@ -57,9 +57,9 @@
 
 `TaskGroup`：包含一组 `Task` 的集合；
 
-* `DataX` 调度过程：
+`DataX` 调度过程：
 
-提交一个数据同步 `Job` 至 `DataX` 后（），`DataX` 会开启一个 `Job` 进程，然后根据拆分策略，将 `Job` 拆分为多个 `Task`。接下来，`Job` 调用 `Scheduler`，依据配置的并发数量，重新对拆分好的 `Task` 进行组合，这样组合叫做 `TaskGroup`。最后，`TaskGroup` 以一定的并发量（配置项: `channel`）来执行组内的 `Task`。任务执行过程中，`DataX` 框架会收集任务执行结果，并以报表的形式打印在日志中。
+提交一个数据同步 `Job` 至 `DataX` 后，`DataX` 会开启一个 `Job` 进程，然后根据拆分策略，将 `Job` 拆分为多个 `Task`。接下来，`Job` 调用 `Scheduler`，依据配置的并发数量，重新对拆分好的 `Task` 进行组合，这样组合叫做 `TaskGroup`。最后，`TaskGroup` 以一定的并发量（配置项: `channel`）来执行组内的 `Task`。任务执行过程中，`DataX` 框架会收集任务执行结果，并以报表的形式打印在日志中。
 
 ##### 五、 `DataX` 的使用
 
